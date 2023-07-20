@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+*{ 
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	max-width: 1080px;
+	margin: auto;
+	background-image: url("/images/unversinti.jpg");
+}
+h1, h2, h3, h4{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 100%;
+	border: 2px solid black;
+	table-layout: fixed;
+	display: table;
+}
+tr {
+	border-bottom: 2px solid black;
+	background-color: #e6aeac;
+}
+td {
+	padding: 10px;
+	display: table-cell;
+	max-width: 0px;
+	text-align: center;
+	color: black;
+}
+.in-line {
+	display: inline-block;
+}
+.center {
+	text-align: center;
+}
+.float-right {
+	text-align: right;
+}
+.float-left {
+	text-align: left;
+}
+.input {
+	width: 100%;
+}
+.linkBtn {
+	background-color: #A9A9A9;
+	text-decoration: none;
+	color: white;
+	border: 1px solid black;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.top {
+    background-color: #333333;
+}
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: block;
+    align-items: center;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    position: absolute;
+    top:40px;
+    left: 27%;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.homepage{
+	display:flex;
+}
+
+.homepage img{
+	
+	background-color: coral;
+	mix-blend-mode:multiply;
+}
